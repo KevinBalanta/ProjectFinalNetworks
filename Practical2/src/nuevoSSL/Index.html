@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+<title>TURF Apuestas</title>
+<script>
+function bigImg(x) {
+    x.style.height = "180px";
+    x.style.width = "450px";
+}
+
+function normalImg(x) {
+    x.style.height = "120px";
+    x.style.width = "400px";
+}
+</script>
+<style type="text/css">
+body {background-color: #126ED0;
+font-family: 'Alegreya', serif;  }
+h1   {color: #FFC300 ; }
+</style>
+</head>
+<body>
+	<h1 onmouseover="style.color='red'" onmouseout="style.color= '#FFC300'  "> Bienvenido a Turf</h1>
+	<img  onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src = "http://tienespoker.com//imagenes/deportes/carreras-caballos.jpg" alt = 'TURF' width = 400 height = 120>
+	<form action = "http://localhost" method = "POST" enctype= "text/plain">
+		<b>Por favor introduzca su ID:</b> <input type="text" name="id">
+		<p>
+		
+		<input type= "submit" name = "Submit" value="Enviar" >
+	</form>
+</body>
+</html>
